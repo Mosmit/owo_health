@@ -1,0 +1,53 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "owo-health-app",
+          "appId": "1:65639782733:android:9a70fe52dae1778615bf04",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "owo-health-app",
+          "configurations": {
+            "android": "1:65639782733:android:9a70fe52dae1778615bf04",
+            "ios": "1:65639782733:ios:9f353d51097aa6b715bf04",
+            "macos": "1:65639782733:ios:9f353d51097aa6b715bf04",
+            "web": "1:65639782733:web:43b865742086a2b215bf04",
+            "windows": "1:65639782733:web:4d11b437c6eb27bc15bf04"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}

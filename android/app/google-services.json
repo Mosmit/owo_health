@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65639782733",
+    "project_id": "owo-health-app",
+    "storage_bucket": "owo-health-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65639782733:android:9a70fe52dae1778615bf04",
+        "android_client_info": {
+          "package_name": "com.example.owo_health"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRIka2GEnLZAotN76p9-5bVgRK5g9BgSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
