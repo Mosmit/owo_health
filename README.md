@@ -1,6 +1,7 @@
 # Owolabi Health App (OwoHealth)
 
 **Owolabi Health** is a Flutter-based personal health companion application designed to empower users to take control of their physical and mental well-being. The app integrates seamless tracking for vitals, moods, and medications with an intelligent symptom checker, all backed by a robust Firebase backend.
+**Live display** Download apk ... https://github.com/Mosmit/owo_health/releases/download/v1.1.0/app-release.apk
 
 ## 📱 Features
 
