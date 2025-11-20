@@ -30,10 +30,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.13.1
   firebase_core: ^4.2.0
   firebase_auth: ^6.1.1
   cloud_firestore: ^6.0.3
@@ -94,3 +96,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/owohealth.jpg"
+  web: # Add this section
+    generate: true
+    image_path: "lib/assets/owohealth.jpg"
+    # background_color: "#hex_code" # Optional: matches your brand color
+    # theme_color: "#hex_code"      # Optional
